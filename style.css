@@ -1,5 +1,21 @@
-* { 
-  box-sizing: border-box;
-  margin: 0; 
-  padding: 0; 
+/* This is a CSS COMMENT */
+
+/* Select elements by TYPE */
+p{
+  color: rgb(106, 22, 97);
+}
+
+h1, h2, h3 {
+  font-family: sans-serif;
+  color: violet;
+}
+
+/* Select elements by Class Name */
+.border {
+  border: 2px solid black;
+}
+
+/* Select unique element by ID NAME */
+#intro {
+  background-color: aquamarine;
 }
