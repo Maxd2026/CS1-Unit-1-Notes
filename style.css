@@ -1,3 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap');
+
+body {
+  font-family: "Bebas Neue", sans-serif;
+  background-color:blanchedalmond;
+}
+
+
 /* This is a CSS COMMENT */
 
 /* Select elements by TYPE */
@@ -6,8 +15,13 @@ p{
 }
 
 h1, h2, h3 {
-  font-family: sans-serif;
+  font-family: "Josefin Sans", sans-serif;
   color: violet;
+}
+h1 {
+  text-align: center:
+
+
 }
 
 /* Select elements by Class Name */
@@ -18,4 +32,14 @@ h1, h2, h3 {
 /* Select unique element by ID NAME */
 #intro {
   background-color: aquamarine;
+}
+/* Properties: colors and typography */
+strong {
+  color:darkblue; 
+  background-color:aquamarine;
+  font-family: impact;
+  font-weight:100;
+  font-style:italic;
+  font-size: 25px;
+
 }
