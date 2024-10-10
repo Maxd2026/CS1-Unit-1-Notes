@@ -43,3 +43,16 @@ strong {
   font-size: 25px;
 
 }
+/* Box Model: margin, border, padding, content */
+img {
+  border-width: 7px;
+  border-style: inset;
+  border-color:rgb(220, 27, 146);
+  border-radius: 50%;
+  padding: 5px;
+}
+
+.Centered {
+margin: auto;
+text-align: center;
+}
